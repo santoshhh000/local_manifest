@@ -5,6 +5,7 @@
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="pixel" fetch="https://github.com/PixelExperience" />
 
+        <remove-project name="device/xiaomi/begonia" />
         <project path="device/redmi/begonia" name="begoniatest" remote="himanshu0218" revision="eleven" />
         <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="dot-OS" revision="dot11" />
         <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="dot-OS" revision="dot11" />
