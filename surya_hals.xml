@@ -5,6 +5,6 @@
 
         <remove-project name="android_frameworks_av" />
         <project path="vendor_PocoParts" name="vendor_PocoParts" remote="himanshu" revision="11" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="himanshu" revision="dot11" />
+        <project path="frameworks/av" name="android_frameworks_av" remote="himanshu" revision="11" />
 
 </manifest>
