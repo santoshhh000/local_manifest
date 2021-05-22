@@ -4,7 +4,7 @@
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
 
         <remove-project name="android_frameworks_av" />
-        <project path="vendor_PocoParts" name="vendor_PocoParts" remote="himanshu0218" revision="11" />
+        <project path="vendor/PocoParts" name="vendor_PocoParts" remote="himanshu0218" revision="11" />
         <project path="frameworks/av" name="android_frameworks_av" remote="himanshu0218" revision="11" />
 
 </manifest>
