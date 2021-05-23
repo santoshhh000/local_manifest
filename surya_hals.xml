@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
+
+        <project path="vendor_PocoParts" name="vendor_PocoParts" remote="himanshu0218" revision="11" />
+
+</manifest>
