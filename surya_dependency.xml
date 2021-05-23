@@ -4,6 +4,8 @@
          <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
          <remote name="wave" fetch="https://github.com/Wave-Project" />
         
+        <remove-project name="device_xiaomi_sm6150-common" />
+        <remove-project name="vendor_xiaomi_sm6150-common" />
         <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="wave" revision="r" />
         <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="wave" revision="11.0-surya" />
         <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="himanshu0218" revision="11.0" />
