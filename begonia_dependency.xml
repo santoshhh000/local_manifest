@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="dot-OS" fetch="https://github.com/dotOS-Devices" />
-        <remote name="himanshu" fetch="https://github.com/himanshu0218" />
 
-        <project path="device/redmi/begonia" name="begoniatest" remote="himanshu" revision="eleven" />
-        <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="dot-OS" revision="dot11" />
-        <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="dot-OS" revision="dot11" />
-        <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dot-OS" revision="dot11" />
-        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="himanshu" revision="eleven" />
+         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
+
+        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="himanshu0218" revision="11.0" />
+        <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="himanshu0218" revision="LA.UM.9.x" />
+        <project path="vendor/xiaomi/surya" name="android_vendor_xiaomi_surya" remote="himanshu0218" revision="arrow-11.0" />
+
 </manifest>
