@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
-         <remote name="wave" fetch="https://github.com/Wave-Project" />
-        
-        <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="wave" revision="r" />
-        <project path="vendor/xiaomi/sm6150-common" name="android_vendor_xiaomi_sm6150-common" remote="himanshu0218" revision="11.0-surya" />
-        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="himanshu0218" revision="11.0" />
-        <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="himanshu0218" revision="LA.UM.9.x" />
-        <project path="vendor/xiaomi/surya" name="android_vendor_xiaomi_surya" remote="himanshu0218" revision="arrow-11.0" />
+        <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
+        <remote name="sambit" fetch="https://github.com/stellabyte2" />
+
+        <project path="device/xiaomi/surya" name="testsurya" remote="himanshu0218" revision="spark-11" />
+        <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="sambit" revision="eleven" />
+        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="himanshu0218" revision="eleven" />
 
 </manifest>
