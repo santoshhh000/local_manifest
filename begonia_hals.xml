@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-        <remote name="dot-OS" fetch="https://github.com/dotOS-Devices" />
-
-        <project path="vendor/mediatek/opensource" name="android_vendor_mediatek_opensource" remote="dot-OS" revision="dot11" />
-        <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="dot-OS" revision="dot11" />
-        <project path="vendor/mediatek/interfaces" name="android_vendor_mediatek_interfaces" remote="dot-OS" revision="dot11" />
-
-</manifest>
+##
