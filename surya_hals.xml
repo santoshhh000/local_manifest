@@ -6,5 +6,6 @@
           <remove-project name="android_frameworks_av" />
        <project path="frameworks/av" name="frameworks_av" remote="himanshu0218" revision="11" />
        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
+       <project path="vendor_PocoParts" name="vendor_PocoParts" remote="himanshu0218" revision="11" />
 
 </manifest>
