@@ -2,6 +2,8 @@
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
 
+        <remove-project name="packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="himanshu0218" revision="eleven" />
         <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="kernel_surya" remote="himanshu0218" revision="11" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya-1" remote="himanshu0218" revision="r" />
