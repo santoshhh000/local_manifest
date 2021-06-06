@@ -2,6 +2,7 @@
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
 
+        <remove-project name="SpiceOS/android_packages_apps_Settings" />
         <project path="device/xiaomi/surya" name="device_surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="kernel_surya" remote="himanshu0218" revision="11" />
         <project path="vendor/xiaomi" name="vendor_surya" remote="himanshu0218" revision="11" />
