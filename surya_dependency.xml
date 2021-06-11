@@ -2,12 +2,12 @@
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
 
-        <remove-project name="SpiceOS/android_packages_apps_Settings" />
+        <remove-project name="android_frameworks_av" />
         <project path="device/xiaomi/surya" name="device_surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="kernel_surya" remote="himanshu0218" revision="11" />
         <project path="vendor/xiaomi" name="vendor_surya" remote="himanshu0218" revision="11" />
         <project path="device/xiaomi/sm6150-common" name="sm6150" remote="himanshu0218" revision="11" />
-        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="himanshu0218" revision="11" />
+        <project path="frameworks/av" name="android_frameworks_av" remote="himanshu0218" revision="11" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
 
 </manifest>
