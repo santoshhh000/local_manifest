@@ -4,8 +4,6 @@
             <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
 
           <remove-project name="android_frameworks_av" />
-          <remove-project name="android_vendor_qcom_opensource_interfaces" />
-       <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="himanshu0218" revision="11" />
        <project path="frameworks/av" name="frameworks_av" remote="himanshu0218" revision="11" />
        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
        <project path="vendor/PocoParts" name="vendor_PocoParts" remote="himanshu0218" revision="11" />
