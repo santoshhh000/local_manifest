@@ -9,7 +9,6 @@
         <project path="packages/apps/Settings" name="packages_apps_Settings-1" remote="himanshu0218" revision="fire" />
         <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="opd" revision="11.0" />
         <project path="vendor/xiaomi" name="vendor_surya" remote="himanshu0218" revision="11" />
-        <project path="vendor/aosp" name="vendor_aosp" remote="himanshu0218" revision="eleven" />
         <project path="device/xiaomi/sm6150-common" name="sm6150-common" remote="himanshu0218" revision="11" />
 
 </manifest>
