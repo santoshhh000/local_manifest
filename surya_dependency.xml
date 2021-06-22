@@ -4,11 +4,10 @@
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="opd" fetch="https://github.com/GZR-Kernels" />
         
-        <remove-project name="packages_apps_Settings" />
-        <project path="device/xiaomi/surya" name="surya" remote="himanshu0218" revision="kraken-11" />
-        <project path="packages/apps/Settings" name="packages_apps_Settings-1" remote="himanshu0218" revision="fire" />
+        <project path="device/xiaomi/surya" name="surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="opd" revision="11.0" />
         <project path="vendor/xiaomi" name="vendor_surya" remote="himanshu0218" revision="11" />
         <project path="device/xiaomi/sm6150-common" name="sm6150-common" remote="himanshu0218" revision="11" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
 
 </manifest>
