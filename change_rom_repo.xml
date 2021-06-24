@@ -3,10 +3,7 @@
 	<remote  name="TheMalachite" fetch="https://github.com/TheMalachite" />
         <remote  name="PixelExperience" fetch="https://github.com/PixelExperience" />
         <remote  name="LineageOS" fetch="https://github.com/LineageOS" />
-        <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r38" />
+        <remote  name="aosp" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-11.0.0_r38" />
 
 	<remove-project name="packages_services_Telephony" />
 	<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="TheMalachite" revision="ruby"/>
