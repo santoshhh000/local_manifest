@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
-        <remote name="atlan" fetch="https://github.com/aospsurya />
+        <remote name="atlan" fetch="https://github.com/aospsurya" />
 
         <remove-project name="android_packages_apps_Settings" />
         <project path="device/xiaomi/surya" name="surya" remote="himanshu0218" revision="11" />
