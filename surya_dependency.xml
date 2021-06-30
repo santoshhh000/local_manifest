@@ -5,6 +5,8 @@
         <remote name="atlan" fetch="https://github.com/aospsurya" />
 
         <remove-project name="frameworks_av" />
+        <remove-project name="device/generic/opengl-transport" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
         <project path="device/xiaomi/surya" name="surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="kernel_surya" remote="himanshu0218" revision="11" />
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="atlan" revision="aosp11" />
