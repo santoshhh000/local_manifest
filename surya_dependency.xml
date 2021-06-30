@@ -4,10 +4,10 @@
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="atlan" fetch="https://github.com/aospsurya" />
 
-        <remove-project name="packages_apps_Settings" />
+        <remove-project name="frameworks_av" />
         <project path="device/xiaomi/surya" name="surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="kernel_surya" remote="himanshu0218" revision="11" />
         <project path="vendor/xiaomi" name="vendor_xiaomi" remote="atlan" revision="aosp11" />
         <project path="device/xiaomi/sm6150-common" name="sm6150-common" remote="himanshu0218" revision="11" />
-        <project path="packages/apps/Settings" name="packages_apps_Settings-1" remote="himanshu0218" revision="eleven" />
+        <project path="frameworks/av" name="frameworks_av" remote="himanshu0218" revision="11" />
 </manifest>
