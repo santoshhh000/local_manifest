@@ -3,6 +3,7 @@
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="gr" fetch="https://github.com/ghostrider-reborn" />
+        <remote name="atlan" fetch="https://github.com/aospsurya" />
 
         <remove-project name="frameworks_av" />
         <remove-project name="device/generic/opengl-transport" />
