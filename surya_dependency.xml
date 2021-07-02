@@ -6,8 +6,6 @@
         <remote name="atlan" fetch="https://github.com/aospsurya" />
 
         <remove-project name="android_packages_apps_Settings" />
-        <remove-project name="platform/hardware/google/pixel" />
-        <project path="hardware/google/pixel" name="hardware_google_pixel" remote="himanshu0218" revision="master" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
         <project path="device/xiaomi/surya" name="device_surya" remote="himanshu0218" revision="11" />
         <project path="kernel/xiaomi/surya" name="kernel_surya" remote="himanshu0218" revision="11" />
