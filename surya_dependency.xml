@@ -7,7 +7,7 @@
 
         <project path="frameworks/av" name="frameworks_av" remote="himanshu0218" revision="11" />
         
-        <project path="device/xiaomi/surya" name="testsurya" remote="himanshu0218" revision="spark-11" />
+        <project path="device/xiaomi/surya" name="device_xiaomi_surya-2" remote="himanshu0218" revision="eleven" />
         <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="himanshu0218" revision="eleven" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="himanshu0218" revision="eleven" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="himanshu0218" revision="lineage-18.1" />
