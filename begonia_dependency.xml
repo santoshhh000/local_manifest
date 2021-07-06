@@ -3,7 +3,7 @@
         <remote name="dot-OS" fetch="https://github.com/dotOS-Devices" />
         <remote name="himanshu" fetch="https://github.com/himanshu0218" />
 
-        <project path="device/redmi/begonia" name="device_redmi_begonia-1" remote="himanshu" revision="eleven" />
+        <project path="device/redmi/begonia" name="device_redmi_begonia-1" remote="himanshu" revision="havoc-11" />
         <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="dot-OS" revision="dot11" />
         <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="dot-OS" revision="dot11" />
         <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dot-OS" revision="dot11" />
