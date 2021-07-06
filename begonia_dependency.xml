@@ -5,7 +5,7 @@
         <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
         <project path="device/xiaomi/begonia" name="begonia_test" remote="himanshu" revision="eleven" />
-        <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="himanshu" revision="eleven" /> />
+        <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="pixel-gitlab" revision="eleven" />
         <project path="kernel/xiaomi/begonia" name="kernel_xiaomi_begonia-1" remote="sambit" revision="eleven" />
         <project path="device/xiaomi/kernel-begonia" name="device_xiaomi_begonia-kernel" remote="sambit" revision="eleven" />
         <project path="vendor/xiaomi/begonia" name="vendor_xiaomi_begonia" remote="sambit" revision="eleven" />
