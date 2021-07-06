@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="dot-OS" fetch="https://github.com/dotOS-Devices" />
+        <remote name="sambit" fetch="https://github.com/stellabyte2" />
         <remote name="himanshu" fetch="https://github.com/himanshu0218" />
+        <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
-        <project path="device/redmi/begonia" name="device_redmi_begonia-1" remote="himanshu" revision="wave-begonia" />
-        <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="dot-OS" revision="dot11" />
-        <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="dot-OS" revision="dot11" />
-        <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dot-OS" revision="dot11" />
+        <project path="device/redmi/begonia" name="begonia_test" remote="himanshu" revision="eleven" />
+        <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="pixel-gitlab" />
+        <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_begonia-1" remote="sambit" revision="eleven" />
+        <project path="device/xiaomi/kernel-begonia" name="device_xiaomi_begonia-kernel" remote="sambit" revision="eleven" />
+        <project path="vendor/xiaomi/begonia" name="vendor_xiaomi_begonia" remote="sambit" revision="eleven" />
         <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="himanshu" revision="eleven" />
-        <project path="vendor/mediatek/opensource" name="android_vendor_mediatek_opensource" remote="dot-OS" revision="dot11" />
-        <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="dot-OS" revision="dot11" />
-        <project path="vendor/mediatek/interfaces" name="android_vendor_mediatek_interfaces" remote="dot-OS" revision="dot11" />
+        <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="sambit" revision="eleven" />
+        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="himanshu" revision="eleven" />
+        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="sambit" revision="eleven" />
 </manifest>
