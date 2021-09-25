@@ -11,6 +11,6 @@
         <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="posp" revision="dumaloo-release" />
         <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_" remote="abi" revision="main" />
         <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="posp" revision="dumaloo-release" />
-        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="posp" revision="dumaloo-release" />
+        <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="himanshu" revision="dot11" />
         <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="posp" revision="dumaloo-release" />
 </manifest>
