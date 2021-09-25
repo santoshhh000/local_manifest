@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="sambit" fetch="https://github.com/stellabyte2" />
+        <remote name="abi" fetch="https://github.com/abhixv" />
         <remote name="himanshu" fetch="https://github.com/himanshu0218" />
-        <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+        <remote name="agent" fetch="https://github.com/AgentFabulous" />
+        <remote name="posp" fetch="https://github.com/PotatoDevices" />
 
-        <project path="device/xiaomi/begonia" name="begonia_test" remote="himanshu" revision="eleven" />
-        <project path="vendor/xiaomi-firmware/begonia" name="vendor_redmi_begonia-firmware" remote="himanshu" revision="dot11" />
-        <project path="kernel/xiaomi/begonia" name="kernel_xiaomi_begonia-1" remote="sambit" revision="eleven" />
-        <project path="device/xiaomi/begonia-kernel" name="device_xiaomi_begonia-kernel" remote="sambit" revision="eleven" />
-        <project path="vendor/xiaomi/begonia" name="vendor_xiaomi_begonia" remote="sambit" revision="eleven" />
-        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="himanshu" revision="eleven" />
-        <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="sambit" revision="eleven" />
-        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="himanshu" revision="eleven" />
-        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="sambit" revision="eleven" />
+        <project path="device/redmi/begonia" name="begonia_new" remote="himanshu" revision="11" />
+        <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="posp" revision="dumaloo-release" />
+        <project path="kernel/xiaomi/mt6785" name="begonia" remote="agent" revision="android-11.0" />
+        <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="posp" revision="dumaloo-release" />
+        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_" remote="abi" revision="main" />
+        <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="posp" revision="dumaloo-release" />
+        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="posp" revision="dumaloo-release" />
+        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="posp" revision="dumaloo-release" />
 </manifest>
