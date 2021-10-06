@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="dot-OS" fetch="https://github.com/dotOS-Devices" />
+        <remote name="abi" fetch="https://github.com/abhixv" />
         <remote name="himanshu" fetch="https://github.com/himanshu0218" />
+        <remote name="agent" fetch="https://github.com/AgentFabulous" />
+        <remote name="posp" fetch="https://github.com/PotatoDevices" />
 
-        <project path="device/redmi/begonia" name="device_redmi_begonia-1" remote="himanshu" revision="havoc-11" />
-        <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="dot-OS" revision="dot11" />
-        <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="dot-OS" revision="dot11" />
-        <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="dot-OS" revision="dot11" />
-        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="himanshu" revision="eleven" />
-        <project path="vendor/mediatek/opensource" name="android_vendor_mediatek_opensource" remote="dot-OS" revision="dot11" />
-        <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="dot-OS" revision="dot11" />
-        <project path="vendor/mediatek/interfaces" name="android_vendor_mediatek_interfaces" remote="dot-OS" revision="dot11" />
+        <project path="device/redmi/begonia" name="begonia_new" remote="himanshu" revision="11" />
+        <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="posp" revision="dumaloo-release" />
+        <project path="kernel/xiaomi/mt6785" name="begonia" remote="agent" revision="android-11.0" />
+        <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="posp" revision="dumaloo-release" />
+        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_" remote="abi" revision="main" />
+        <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="posp" revision="dumaloo-release" />
+        <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="himanshu" revision="dot11" />
+        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="posp" revision="dumaloo-release" />
 </manifest>
