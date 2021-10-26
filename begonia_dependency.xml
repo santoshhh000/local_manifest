@@ -6,7 +6,7 @@
         <remote name="posp" fetch="https://github.com/PotatoDevices" />
         <remote name="santosh" fetch="https://github.com/santoshhh000" />
 
-        <project path="device/redmi/begonia" name="begonia_new" remote="himanshu" revision="11-havoc" />
+        <project path="device/redmi/begonia" name="begonia_ross" remote="himanshu" revision="main" />
         <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="posp" revision="dumaloo-release" />
         <project path="kernel/xiaomi/mt6785" name="begonia" remote="agent" revision="android-11.0" />
         <project path="vendor/redmi/begonia" name="vendor_redmi_begonia_ross" remote="santosh" revision="dumaloo-release" />
