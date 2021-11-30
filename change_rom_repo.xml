@@ -4,7 +4,7 @@
         <remote name="sambit" fetch="https://github.com/KangMonkey" />
 
 	<remove-project name="platform/packages/modules/Wifi" />
-	<project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="sambit" revision="12"/>
+	<project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="himanshu" revision="12"/>
 
 	<remove-project name="platform/frameworks/opt/net/ims" />
 	<project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="himanshu" revision="12"/>
