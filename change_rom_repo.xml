@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="himanshu" fetch="https://github.com/himanshu0218" />
-        <remote name="sambit" fetch="https://github.com/KangMonkey" />
 
 	<remove-project name="platform/packages/modules/Wifi" />
 	<project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="himanshu" revision="12"/>
