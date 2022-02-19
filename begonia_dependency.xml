@@ -5,9 +5,9 @@
         <remote name="posp" fetch="https://github.com/PotatoDevices" />
         <remote name="posporg" fetch="https://github.com/PotatoProject" />
 
-        <project path="device/redmi/begonia" name="begonia_a12" remote="himanshu0218" revision="12" />
+        <project path="device/xiaomi/begonia" name="begonia_a12" remote="himanshu0218" revision="12" />
         <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="posp" revision="frico-release" />
-        <project path="vendor/redmi/begonia" name="vendor_xiaomi_begonia" remote="himanshu0218" revision="12" />
-        <project path="vendor/redmi/begonia-ims" name="vendor_xiaomi_begonia-ims" remote="posp" revision="frico-release" />
+        <project path="vendor/xiaomi/begonia" name="vendor_xiaomi_begonia" remote="himanshu0218" revision="12" />
+        <project path="vendor/xiaomi/begonia-ims" name="vendor_xiaomi_begonia-ims" remote="posp" revision="frico-release" />
         <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="posporg" revision="frico-release" />
 </manifest>
