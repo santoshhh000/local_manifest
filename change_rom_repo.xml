@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="himanshu" fetch="https://github.com/himanshu0218" />
 
-	<remove-project name="android_packages_modules_Wifi" />
+	<remove-project name="platform/packages/modules/Wifi" />
 	<project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="himanshu" revision="12"/>
 
 	<remove-project name="platform/frameworks/opt/net/ims" />
