@@ -14,4 +14,5 @@
         <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="posp" revision="dumaloo-release" />
         <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="himanshu" revision="dot11" />
         <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="posp" revision="dumaloo-release" />
+        <project path="vendor/ANXCamera" name="vendor_ANXCamera" remote="santosh" revision="11" />
 </manifest>
