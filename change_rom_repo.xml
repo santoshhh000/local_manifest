@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
+
+	<remove-project name="android_frameworks_native" />
+	<project path="frameworks/native" name="android_frameworks_native" remote="himanshu0218" revision="eleven"/>
+</manifest>
