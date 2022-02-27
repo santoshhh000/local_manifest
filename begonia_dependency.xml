@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="abi" fetch="https://github.com/abhixv" />
+        <remote name="zyc" fetch="https://github.com/ZyCromerZ" />
         <remote name="himanshu" fetch="https://github.com/himanshu0218" />
         <remote name="agent" fetch="https://github.com/AgentFabulous" />
         <remote name="posp" fetch="https://github.com/PotatoDevices" />
         <remote name="santosh" fetch="https://github.com/santoshhh000" />
 
-        <project path="device/redmi/begonia" name="begonia_new" remote="himanshu" revision="11" />
+        <project path="device/redmi/begonia" name="device_redmi_begonia_ross" remote="santosh" revision="11" />
         <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="posp" revision="dumaloo-release" />
         <project path="kernel/xiaomi/mt6785" name="begonia" remote="agent" revision="android-11.0" />
         <project path="vendor/redmi/begonia" name="vendor_redmi_begonia_ross" remote="santosh" revision="dumaloo-release" />
@@ -14,4 +15,6 @@
         <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="posp" revision="dumaloo-release" />
         <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="himanshu" revision="dot11" />
         <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="posp" revision="dumaloo-release" />
+        <project path="vendor/dolby" name="vendor_dolby" remote="santosh" revision="main" />
+        <project path="kernel/xiaomi/mt6785" name="begonia" remote="zyc" revision="r-oss-up" />
 </manifest>
